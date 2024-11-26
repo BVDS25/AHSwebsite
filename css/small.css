@@ -1,0 +1,56 @@
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+body{
+    font-size: 16px;
+    font-family: "SUSE", sans-serif, "Aboreto";
+    background-color: black;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: "Aboreto";
+    text-align: center;
+    color: #ff4e4e;
+    padding-left: 1.5rem;
+    display: flex;
+    justify-content: center;
+    padding: .5rem 2vw;
+    align-items: center;
+    text-shadow: 0 0 20px #ff0000, 0 0 40px #ff8383, 0 0 60px #ff0000, 0 0 80px #ff0000;
+
+
+}
+
+main{
+    margin: 1rem 2%;
+    
+}
+
+
+div.seasons {
+    padding: 1rem 20%;
+}
+
+div.seasons a{
+    display: block;
+    padding: .8rem;
+    margin-bottom: .5rem;
+    background-color: rgb(136, 65, 65);
+    border-radius: 7px;
+    color: black;
+    text-decoration: none;
+    border: 1px solid #ff4e4e;
+}
+
+div.seasons a:hover {
+    background-color: #5f1111;
+
+}
+
+footer{
+    text-align: center;
+}
